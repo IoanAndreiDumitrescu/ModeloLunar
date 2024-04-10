@@ -5,6 +5,33 @@
     <link href="css/site.css" rel="stylesheet" />
 </head>
 <body>
+
+    <h2>El módulo lunar</h2>
+    <form>
+        <label for="id">ID:</label><br>
+        <input type="text" id="id" name="id" placeholder="Enter ID in LLDDDDLL format"><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="nombre" name="nombre" pattern="[A-Za-z]{2}\d{4}[A-Za-z]{2}" placeholder="Enter name"><br>
+        <label for="group">Group:</label><br>
+        <select id="group" name="group">
+            <option value="igneas">Igneas</option>
+            <option value="metamorficas">Metamórficas</option>
+            <option value="sedimentarias">Sedimentarias</option>
+        </select><br>
+        <label for="dureza">Dureza (Escala de Mohs):</label><br>
+        <input type="number" id="dureza" name="dureza" min="1" max="10" placeholder="Enter hardness"><br>
+        <label for="tamañoGrano"> El tamaño del grano:</label><br>
+        <select id="tamañoGrano" name="tamañoGrano">
+            <option value="granoMuyGrueso">Grano muy grueso: > 30 mm</option>
+            <option value="granoGrueso">Grano Grueso: 5 to 30 mm</option>
+            <option value="granoMedio">Grano Medio: 2 to 5 mm</option>
+            <option value="granoFino">Grano fino: < 2 mm</option>
+        </select><br>
+
+        <input id="imprimir" type="submit" value="Imprimir">
+    </form>
+
+=======
     <header>
         <div class="container">
             <div class="row">
