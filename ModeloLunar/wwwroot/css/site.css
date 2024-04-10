@@ -1,6 +1,27 @@
 ﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+
+body {
+    background-image: url("https://www.9minecraft.net/wp-content/uploads/2021/01/Moon-and-Space-Mod-Screenshots-4.jpg");
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h2, p, option, form {
+    color:white
+}
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;
