@@ -3,41 +3,15 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="css/site.css" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/tenorite" rel="stylesheet">
 </head>
 <body>
-
-    <h2>El módulo lunar</h2>
-    <form>
-        <label for="id">ID:</label><br>
-        <input type="text" id="id" name="id" placeholder="Enter ID in LLDDDDLL format"><br>
-        <label for="name">Name:</label><br>
-        <input type="text" id="nombre" name="nombre" pattern="[A-Za-z]{2}\d{4}[A-Za-z]{2}" placeholder="Enter name"><br>
-        <label for="group">Group:</label><br>
-        <select id="group" name="group">
-            <option value="igneas">Igneas</option>
-            <option value="metamorficas">Metamórficas</option>
-            <option value="sedimentarias">Sedimentarias</option>
-        </select><br>
-        <label for="dureza">Dureza (Escala de Mohs):</label><br>
-        <input type="number" id="dureza" name="dureza" min="1" max="10" placeholder="Enter hardness"><br>
-        <label for="tamañoGrano"> El tamaño del grano:</label><br>
-        <select id="tamañoGrano" name="tamañoGrano">
-            <option value="granoMuyGrueso">Grano muy grueso: > 30 mm</option>
-            <option value="granoGrueso">Grano Grueso: 5 to 30 mm</option>
-            <option value="granoMedio">Grano Medio: 2 to 5 mm</option>
-            <option value="granoFino">Grano fino: < 2 mm</option>
-        </select><br>
-
-        <input id="imprimir" type="submit" value="Imprimir">
-    </form>
-
-=======
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-md-5"></div>
-                <div class="col-md-3">
-                    <h2>MÓDULO LUNAR</h2>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h2>MÓDULO LUNAR </h2>
                 </div>
                 <div class="col-md-4"></div>
 
@@ -46,105 +20,120 @@
     </header>
     <div class="container">
         <div class="row form-control">
-            <div class="col-md-3"></div>
-            <div class=" col-md-6">
+            <div class="col-md-4"></div>
+            <div class=" col-md-4">
                 <form>
-                    <label for="id">ID:</label><br>
-                    <input type="text" id="id" name="id" placeholder="Enter ID in LLDDDDLL format"><br>
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="nombre" name="nombre" pattern="[A-Za-z]{2}\d{4}[A-Za-z]{2}" placeholder="Enter name"><br>
-                    <label for="group">Group:</label><br>
-                    <select id="group" name="group">
-                        <option value="igneas">Igneas</option>
-                        <option value="metamorficas">Metamórficas</option>
-                        <option value="sedimentarias">Sedimentarias</option>
-                    </select><br>
-                    <label for="dureza">Dureza (Escala de Mohs):</label><br>
-                    <input type="number" id="dureza" name="dureza" min="1" max="10" placeholder="Enter hardness"><br>
-                    <label for="tamañoGrano"> El tamaño del grano:</label><br>
-                    <select id="tamañoGrano" name="tamañoGrano">
-                        <option value="granoMuyGrueso">Grano muy grueso: > 30 mm</option>
-                        <option value="granoGrueso">Grano Grueso: 5 to 30 mm</option>
-                        <option value="granoMedio">Grano Medio: 2 to 5 mm</option>
-                        <option value="granoFino">Grano fino: < 2 mm</option>
-                    </select><br>
-                    <label for="clasificacion">Clasificacion:</label><br>
-                    <select id="clasificacion" name="clasificacion">
-                        <option value="rocasDeConstruccion">
-                            Rocas de construcción: Son aquellas rocas que se usan para la
-                            construcción de diferentes estructuras.
-                        </option>
-                        <option value="rocasOrnamentales">
-                            Rocas ornamentales: Son todas aquellas rocas de uso decorativo,
-                            integrado o no en edificio o estructuras superiores.
-                        </option>
-                        <option value="RocasDeUso">
-                            Rocas de uso en utensilios para el hombre.
-                        </option>
-                        <option value="piedrasMachacadas">
-                            Piedras machacadas: Áridos, ripios, agregados, etc. que son muy
-                            utilizados en la construcción como material de relleno.
-                        </option>
-                    </select><br>
-                    <label for="tamañoDeCristales">Tamaño de cristales</label><br>
-                    <input type="number" id="dureza" name="dureza" min="0" max="10"><br>
 
-                    <label for="temperaturaDeFormacion">Temperatura de formacion</label><br>
-                    <input type="number" id="dureza" name="dureza" min="-100" max="100"><br>
+                    <b>
+                        <label for="id">ID:</label><br>
+                        <input type="text" id="id" name="id" placeholder="Enter ID in LLDDDDLL format"><br>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="nombre" name="nombre" pattern="[A-Za-z]{2}\d{4}[A-Za-z]{2}" placeholder="Enter name"><br>
+                        <label for="group">Group:</label><br>
+                        <select id="group" name="group">
+                            <option value="igneas">Igneas</option>
+                            <option value="metamorficas">Metamórficas</option>
+                            <option value="sedimentarias">Sedimentarias</option>
+                        </select><br>
+                        <label for="dureza">Dureza (Escala de Mohs):</label><br>
+                        <input type="number" id="dureza" name="dureza" min="1" max="10" placeholder="Enter hardness"><br>
+                        <label for="tamañoGrano"> El tamaño del grano:</label><br>
+                        <select id="tamañoGrano" name="tamañoGrano">
+                            <option value="granoMuyGrueso">Grano muy grueso: > 30 mm</option>
+                            <option value="granoGrueso">Grano Grueso: 5 to 30 mm</option>
+                            <option value="granoMedio">Grano Medio: 2 to 5 mm</option>
+                            <option value="granoFino">Grano fino: < 2 mm</option>
+                        </select><br>
 
-                    <label for="estructura">Estructura:</label><br>
-                    <select id="clasificacion" name="clasificacion">
-                        <option value="rocasDeConstruccion">
-                            Rocas de construcción: Son aquellas rocas que se usan para la
-                            construcción de diferentes estructuras.
-                        </option>
-                        <option value="rocasOrnamentales">
-                            Rocas ornamentales: Son todas aquellas rocas de uso decorativo,
-                            integrado o no en edificio o estructuras superiores.
-                        </option>
-                        <option value="RocasDeUso">
-                            Rocas de uso en utensilios para el hombre.
-                        </option>
-                        <option value="piedrasMachacadas">
-                            Piedras machacadas: Áridos, ripios, agregados, etc. que son muy
-                            utilizados en la construcción como material de relleno.
-                        </option>
-                    </select><br>
+                        <label for="clasificacion">Clasificacion:</label><br>
+                        <select id="clasificacion" name="clasificacion">
+                            <option value="seleccionaopcion">
+                                Selecciona una opción.
+                            </option>
+                            <option value="rocasDeConstruccion">
+                                Rocas de construcción: Son aquellas rocas que se usan para la
+                                construcción de diferentes estructuras.
+                            </option>
+                            <option value="rocasOrnamentales">
+                                Rocas ornamentales: Son todas aquellas rocas de uso decorativo,
+                                integrado o no en edificio o estructuras superiores.
+                            </option>
+                            <option value="RocasDeUso">
+                                Rocas de uso en utensilios para el hombre.
+                            </option>
+                            <option value="piedrasMachacadas">
+                                Piedras machacadas: Áridos, ripios, agregados, etc. que son muy
+                                utilizados en la construcción como material de relleno.
+                            </option>
+                        </select><br>
+                        <label for="tamañoDeCristales">Tamaño de cristales</label><br>
+                        <input type="number" id="dureza" name="dureza" min="0" max="10"><br>
 
-                    <label for="clasificacion">Forma de los granos:</label><br>
-                    <select id="clasificacion" name="clasificacion">
-                        <option value="rocasDeConstruccion">
-                            Rocas de construcción: Son aquellas rocas que se usan para la
-                            construcción de diferentes estructuras.
-                        </option>
-                        <option value="rocasOrnamentales">
-                            Rocas ornamentales: Son todas aquellas rocas de uso decorativo,
-                            integrado o no en edificio o estructuras superiores.
-                        </option>
-                        <option value="RocasDeUso">
-                            Rocas de uso en utensilios para el hombre.
-                        </option>
-                        <option value="piedrasMachacadas">
-                            Piedras machacadas: Áridos, ripios, agregados, etc. que son muy
-                            utilizados en la construcción como material de relleno.
-                        </option>
-                    </select><br>
+                        <label for="temperaturaDeFormacion">Temperatura de formacion</label><br>
+                        <input type="number" id="dureza" name="dureza" min="-100" max="100"><br>
 
-                    <label for="textura">Textura:</label><br>
-                    <select id="textura" name="textura">
-                        <option value="vitrea">Vitrea</option>
-                        <option value="afanitica">Afanitica</option>
-                        <option value="granoMedio">Grano Medio: 2 to 5 mm</option>
-                        <option value="faneritica">Faneritica</option>
-                    </select>
+                        <label for="estructura">Estructura:</label><br>
+                        <select id="clasificacion" name="clasificacion">
+                            <option value="seleccionaopcion">
+                                Selecciona una opción.
+                            </option>
+                            <option value="rocasDeConstruccion">
+                                Rocas de construcción: Son aquellas rocas que se usan para la
+                                construcción de diferentes estructuras.
+                            </option>
+                            <option value="rocasOrnamentales">
+                                Rocas ornamentales: Son todas aquellas rocas de uso decorativo,
+                                integrado o no en edificio o estructuras superiores.
+                            </option>
+                            <option value="RocasDeUso">
+                                Rocas de uso en utensilios para el hombre.
+                            </option>
+                            <option value="piedrasMachacadas">
+                                Piedras machacadas: Áridos, ripios, agregados, etc. que son muy
+                                utilizados en la construcción como material de relleno.
+                            </option>
+                        </select><br>
 
-                    <br /><br />
-                    <input id="imprimir" type="submit" value="Imprimir">
+                        <label for="clasificacion">Forma de los granos:</label><br>
+                        <select id="clasificacion" name="clasificacion">
+                            <option value="seleccionaopcion">
+                                Selecciona una opción.
+                            </option>
+                            <option value="rocasDeConstruccion">
+                                Rocas de construcción: Son aquellas rocas que se usan para la
+                                construcción de diferentes estructuras.
+                            </option>
+                            <option value="rocasOrnamentales">
+                                Rocas ornamentales: Son todas aquellas rocas de uso decorativo,
+                                integrado o no en edificio o estructuras superiores.
+                            </option>
+                            <option value="RocasDeUso">
+                                Rocas de uso en utensilios para el hombre.
+                            </option>
+                            <option value="piedrasMachacadas">
+                                Piedras machacadas: Áridos, ripios, agregados, etc. que son muy
+                                utilizados en la construcción como material de relleno.
+                            </option>
+                        </select><br>
+
+                        <label for="textura">Textura:</label><br>
+                        <select id="textura" name="textura">
+                            <option value="vitrea">Vitrea</option>
+                            <option value="afanitica">Afanitica</option>
+                            <option value="granoMedio">Grano Medio: 2 to 5 mm</option>
+                            <option value="faneritica">Faneritica</option>
+                        </select>
+
+
+                        <br /><br />
+                        <input id="imprimir" type="submit" value="Imprimir">
+                    </b>
                 </form>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-md-4"></div>
         </div>
     </div>
     <script src="js/modeloLunar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBud7TlRbs/ic4AwGcFZOxg5DpPt8EgeUIgIwzjWfXQKWA3" crossorigin="anonymous"></script>
 </body>
 </html>

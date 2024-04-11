@@ -3,7 +3,7 @@ for details on configuring this project to bundle and minify static web assets. 
 
 
 body {
-    background-image: url("https://th.bing.com/th/id/OIP.fUBQEvFkYx0KQZFhjSKioQHaEo?w=728&h=455&rs=1&pid=ImgDetMain");
+    background-image: url("https://www.nasa.gov/wp-content/uploads/2022/11/spacex_starship_hls_artemis_iii_2_crew_0.jpg?w=2048");
     position: center;
     background-repeat: no-repeat;
     background-size: cover
@@ -18,8 +18,19 @@ header {
     align-content: center;
 }
 
-h2, p, label {
-    color:white
+h2 {
+    color: white;
+    font-family: 'Tenorite', sans-serif;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+p, label {
+    color: black;
+    font-family: 'Tenorite', sans-serif;
 }
 
 a.navbar-brand {
@@ -28,8 +39,11 @@ a.navbar-brand {
   word-break: break-all;
 }
 
-form {
-    box-shadow: 0, 0, 0, 0.5px
+.form {
+    box-shadow: 0, 0, 0, 0.5px;
+    font-family: 'Tenorite', sans-serif;
+    background-color:black;
+    opacity: 10%;
 }
 
 a {
@@ -88,3 +102,4 @@ body {
   white-space: nowrap;
   line-height: 60px;
 }
+
